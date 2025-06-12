@@ -1,0 +1,32 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 16px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+
+  mat-form-field {
+    flex: 1;
+    min-width: 220px;
+  }
+}
+
+.action {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 0px 0px 20px;
+  button {
+    flex: 1;
+  }
+}
+
+.mat-radio-button ~ .mat-radio-button {
+  margin-left: 16px;
+}

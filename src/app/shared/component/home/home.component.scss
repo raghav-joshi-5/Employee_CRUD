@@ -1,0 +1,17 @@
+// table {
+//   width: 100%;
+// }
+
+td,
+th {
+  width: 10%;
+}
+
+.main-body {
+  max-width: 1248px;
+  margin: 0 auto;
+  mat-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+}
